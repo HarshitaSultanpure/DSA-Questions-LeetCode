@@ -1,3 +1,5 @@
+//Each number in Pascal's Triangle is the sum of the two numbers directly above it.
+
 class Pascal's_Triangle {
 public:
     vector<vector<int>> generate(int numRows) {
