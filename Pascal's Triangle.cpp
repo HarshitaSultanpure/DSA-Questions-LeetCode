@@ -7,7 +7,7 @@ public:
         
         for(i=0;i<n;i++)
         {
-            res[i].resize(i + 1); // 
+            res[i].resize(i + 1); 
             for(j=0;j<=i;j++)
             {
                 if(j==0 || j==i) 
