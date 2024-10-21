@@ -21,7 +21,7 @@ The solution uses a 2D vector to store the rows of Pascal's Triangle. Each row i
 	To ensure memory is allocated properly, each row is resized before assigning values
 */
 
-Solution:
+//Solution Code:
 
 class Pascal's_Triangle {
 public:
@@ -33,7 +33,6 @@ public:
         for(i=0;i<n;i++)
         {
             res[i].resize(i + 1); // to declare the size of each row
-
             for(j=0;j<=i;j++)
             {
                 if(j==0 || j==i) 
